@@ -1,0 +1,11 @@
+.btn {
+  @apply px-4 py-2 rounded font-semibold transition-colors text-white;
+  background-color: var(--btn-bg, #2563eb);
+}
+
+.btn-primary { --btn-bg: #2563eb; }
+.btn-secondary { --btn-bg: #64748b; }
+.btn-success { --btn-bg: #22c55e; }
+.btn-danger { --btn-bg: #ef4444; }
+
+.btn:hover { filter: brightness(0.95); }

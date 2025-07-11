@@ -1,0 +1,19 @@
+{
+  "name": "@troyfitzwater/tailwind-utils-lib",
+  "version": "1.0.0",
+  "main": "index.css",
+  "scripts": {
+    "build": "tailwindcss -i ./src/styles.css -o index.css --minify"
+  },
+  "keywords": [],
+  "author": "troyfitzwater",
+  "license": "MIT",
+  "description": "Demo creating a CSS library based on TailwindCSS v4",
+  "dependencies": {
+    "@tailwindcss/postcss": "^4.1.11"
+  },
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.1.11",
+    "tailwindcss": "^4.1.11"
+  }
+}
