@@ -1,6 +1,6 @@
 {
   "name": "@troyfitzwater/tailwind-utils-lib",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.css",
   "scripts": {
     "build": "tailwindcss -i ./src/styles.css -o index.css --minify"
