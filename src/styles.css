@@ -2,8 +2,8 @@
 @import "./button.css";
 
 @theme {
-  --btn-primary: #2563eb;
-  --btn-secondary: #64748b;
-  --btn-success: #22c55e;
-  --btn-danger: #ef4444;
+  --color-primary: #2563eb;
+  --color-secondary: #64748b;
+  --color-success: #22c55e;
+  --color-danger: #ef4444;
 }
